@@ -164,8 +164,6 @@ class _MyAppState extends State<MyApp> {
           context, MaterialPageRoute(builder: (context) => Verify(verifyCode)));
       // ShowMySnackBar(context, "کد تایید به شماره همراه شما ارسال شد");
     } else {
-      // Navigator.push(
-      //     context, MaterialPageRoute(builder: (context) => Verify(verifyCode)));
       ShowMySnackBar(context, "دوباره امتحان کنید");
     }
   }
